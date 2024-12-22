@@ -73,7 +73,8 @@ const useWeather = () => {
   };
   useEffect(() => {
     setLoading({
-      loading: true,
+      ...loading,
+      state: true,
       message: "Finding Location...",
     });
 
@@ -84,7 +85,7 @@ const useWeather = () => {
         fetchWeatherData(position.coords.latitude, position.coords.longitude);
       });
     }
-  }, []);
+  }, [selectedLocation.latitude, selectedLocation.longitude]);
   return {
     weatherData,
     loading,

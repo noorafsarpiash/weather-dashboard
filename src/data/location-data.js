@@ -6,13 +6,13 @@ const data = [
   },
   {
     location: "Dhaka",
-    latitude: 23.8041,
-    longitude: 90.4152,
+    latitude: 23.685,
+    longitude: 90.3563,
   },
   {
-    location: "Chittagong",
-    latitude: 22.3752,
-    longitude: 91.8349,
+    location: "Savar",
+    latitude: 23.8479,
+    longitude: 90.2577,
   },
   {
     location: "Paris",
@@ -40,9 +40,9 @@ const data = [
     longitude: 116.4074,
   },
   {
-    location: "Islamabad",
-    latitude: 33.6995,
-    longitude: 73.0363,
+    location: "Pakistan",
+    latitude: 30.3753,
+    longitude: 69.3451,
   },
   {
     location: "Riyadh",
